@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List - Yama</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header Content -->
+    <header>
+        <h1>Todo List - Ari</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Form Section -->
+        <section class="form-section">
+            <form id="todo-form">
+                <!-- Todo Input -->
+                <input type="text" id="todo-input" placeholder="Enter a new todo item" required>
+
+                <!-- Date Input -->
+                <input type="date" id="todo-date">
+
+                <!-- Add Button -->
+                <button class="add-btn" type="submit">Add Todo</button>
+            </form>
+        </section>
+
+        <!-- Action Section -->
+        <section class="action-section">
+            <!-- Clear All Button -->
+            <button class="clear-btn" id="clear-all">Clear All Todos</button>
+
+            <!-- Filter Options -->
+            <button class="filter-btn" id="filter-todos">Filter Todos (All)</button>
+        </section>
+
+        <!-- Todo List Section -->
+        <section class="todo-section">
+            <header>
+                <h1>List of Todos</h1>
+            </header>
+
+            <ul id="todo-list">
+                <!-- Todo items will be dynamically added here -->
+                <li class="empty-state">No todos available. Add your first todo above!</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Content -->
+    <footer>
+        <p>&copy; 2025 Todo List App. All rights reserved.</p>
+    </footer>
+
+    <script src="js/style.js"></script>
+</body>
+
+</html>
